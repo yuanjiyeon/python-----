@@ -24,9 +24,9 @@ def changename(name):
 baijia = 'baijia'  # 百家优选
 yifang = 'yifang'  # 易方
 guangfa = 'cc'  # 广发
-x1 = yifang
+x1 = input('请输入基金的全拼###baijia#####yifang###cc###')
 # 用于区分基金进行减仓
-mrow = 1# 测试数据 0 是测试数据
+mrow = int(input('请输入要测试数据，0代表测试数据，1代表实际数值'))# 测试数据 0 是测试数据
 url = xlrd.open_workbook(r'D:\Github\First\bin\test.xls')  # 打开表格
 aa = url.sheet_by_name(x1)  # 读取其中内容
 nrow = aa.nrows  # 行数
