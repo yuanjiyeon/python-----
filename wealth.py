@@ -98,3 +98,4 @@ plt.xticks(day)  # X轴刻度细化
 if len(day) > 15:
     plt.yticks(range(math.ceil(min(lostmoney)), math.ceil(max(lostmoney)) + 10, 10))
 plt.show()  # 图像显示
+###
