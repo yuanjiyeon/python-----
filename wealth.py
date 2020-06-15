@@ -130,9 +130,9 @@ if lostmoney[len(lostmoney)-1]>0:
 else:
     colorText='g'
 plt.bar(day,lostmoney,color=colorText,align='center',width=0.1,label=label1)
-plt.legend(loc='upper left',fontsize='x-large',edgecolor='black')
+plt.legend(loc='best',fontsize='x-large',edgecolor='black')
 plt.bar(day,lostmoney,color='r',align='center',width=0.1,label=label2)
-plt.legend(loc='upper left',fontsize='x-large',edgecolor='black')
+plt.legend(loc='best',fontsize='x-large',edgecolor='black')
 for i in range(0,len(day)):#如果是负的就是绿柱，正的就是红柱
     if lostmoney[i]>0:
         plt.bar(day[i],lostmoney[i],color='r',align='center',width=0.2)
