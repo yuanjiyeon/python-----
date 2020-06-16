@@ -38,4 +38,4 @@ def gui():
     b4 = tk.Button(root, text='实际数据', font=f, command=buttonValue01, bg='BurlyWood')
     b4.pack()
     root.mainloop()
-    return x1,mrow
+    return x1,mrow#
