@@ -56,4 +56,4 @@ def gui(day,lostmoney,allmoney,touZi,touZ,x1):
     if max(lostmoney)>100:#Y轴刻度细化
         imgYlabe=math.ceil(max(lostmoney)/10)
         plt.yticks(range(math.ceil(min(lostmoney)), math.ceil(max(lostmoney)) + 10, imgYlabe))
-    plt.show()  # 图像显示
+    plt.show()  # 图像显示#
