@@ -63,4 +63,4 @@ while i < len(lilu):  # 读取所有的基金净值
         if lilu[i] == "":
             break;
 wealthGUI.gui(day,lostmoney,allmoney,touZi,touZ,x1)
-
+##
